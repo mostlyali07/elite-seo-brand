@@ -1509,6 +1509,10 @@
         font-family: 'Samsung Bold';
     }
     
+    .seo-campaign a {
+        text-decoration: none;
+    }
+    
     .seo-campaign h2 {
         padding-bottom: 10px;
         color: #000;
@@ -1525,6 +1529,49 @@
         background-repeat: no-repeat;
         background-color: #e2f6ff;
         border-radius: 26px;
+        margin: 50px 0px;
+    }
+    
+    .campaign-1:hover {
+        background-color: #fff;
+        box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.068);
+        transition: 0.6s;
+    }
+    
+    .campaign-2 {
+        padding: 20px 20px;
+        background-image: url(../images/01.png);
+        background-size: 15%;
+        background-position-x: 90%;
+        background-position-y: 95%;
+        background-repeat: no-repeat;
+        background-color: #feebe5;
+        border-radius: 26px;
+        margin: 50px 0px;
+    }
+    
+    .campaign-2:hover {
+        background-color: #fff;
+        box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.068);
+        transition: 0.6s;
+    }
+    
+    .campaign-3 {
+        padding: 20px 20px;
+        background-image: url(../images/03.png);
+        background-size: 15%;
+        background-position-x: 90%;
+        background-position-y: 95%;
+        background-repeat: no-repeat;
+        background-color: #fff3ea;
+        border-radius: 26px;
+        margin: 50px 0px;
+    }
+    
+    .campaign-3:hover {
+        background-color: #fff;
+        box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.068);
+        transition: 0.6s;
     }
     /* Footer */
     
