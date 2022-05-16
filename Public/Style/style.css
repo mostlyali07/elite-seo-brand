@@ -1494,11 +1494,26 @@
         text-align: center;
     }
     
+    .seo-campaign ul li {
+        padding-bottom: 10px;
+        font-family: 'Samsung Bold';
+        text-transform: uppercase;
+        color: #a8b6d1;
+    }
+    
     .seo-campaign p {
         color: #6e6e6e;
         font-size: 17px;
         line-height: 32px;
-        padding-right: 20px;
+        padding-right: 70px;
+        font-family: 'Samsung Bold';
+    }
+    
+    .seo-campaign h2 {
+        padding-bottom: 10px;
+        color: #000;
+        font-size: 35px;
+        font-family: 'Samsung Bold';
     }
     /* Footer */
     
