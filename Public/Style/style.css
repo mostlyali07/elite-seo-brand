@@ -1493,6 +1493,13 @@
         transform: translate(-50%, -50%);
         text-align: center;
     }
+    
+    .seo-campaign p {
+        color: #6e6e6e;
+        font-size: 17px;
+        line-height: 32px;
+        padding-right: 20px;
+    }
     /* Footer */
     
     .blue {
