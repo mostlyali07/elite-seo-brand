@@ -1515,6 +1515,17 @@
         font-size: 35px;
         font-family: 'Samsung Bold';
     }
+    
+    .campaign-1 {
+        padding: 20px 20px;
+        background-image: url(../images/01.png);
+        background-size: 15%;
+        background-position-x: 90%;
+        background-position-y: 95%;
+        background-repeat: no-repeat;
+        background-color: #e2f6ff;
+        border-radius: 26px;
+    }
     /* Footer */
     
     .blue {
