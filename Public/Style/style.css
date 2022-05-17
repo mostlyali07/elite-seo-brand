@@ -400,6 +400,46 @@
         box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.6);
     }
     
+    .btn-12 {
+        padding: 16px 36px 16px 36px;
+        font-size: 14px;
+        text-transform: uppercase;
+        border-radius: 50px;
+        font-family: 'Samsung Bold';
+        font-weight: 700;
+        color: #000;
+        border: solid 1px #ffb207;
+        background-image: linear-gradient(#ffe67a, #ffb20a);
+        transition: all 0.3s ease;
+    }
+    
+    .btn-12:hover {
+        color: #fff;
+        border: solid 1px #91b1be;
+        background-image: linear-gradient(#91b1be, #91b1be);
+        box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.6);
+    }
+    
+    .btn-13 {
+        padding: 16px 36px 16px 36px;
+        font-size: 14px;
+        text-transform: uppercase;
+        border-radius: 50px;
+        font-weight: 700;
+        font-family: 'Samsung Bold';
+        color: #fff;
+        border: solid 1px #91b1be;
+        background-color: #91b1be;
+    }
+    
+    .btn-13:hover {
+        transition: all 0.5s ease;
+        color: #000;
+        border: solid 1px #ffb207;
+        background-image: linear-gradient(#ffe67a, #ffb20a);
+        box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.6);
+    }
+    
     .first-col {
         padding-top: 60px;
         padding-left: 30px;
@@ -861,6 +901,15 @@
         .seo-view h3 {
             font-size: 18px !important;
         }
+        .testimonials-col-2 img {
+            padding-top: 50px;
+            width: 350px;
+            height: auto;
+        }
+        .main-comprehensive img {
+            width: 380px;
+            height: auto;
+        }
     }
     /* counter-2 */
     
@@ -1095,7 +1144,9 @@
             height: auto;
         }
         .cta-img {
-            margin-left: -90px;
+            width: 460px !important;
+            margin-left: -50px;
+            text-align: center;
         }
         .cta-col-two {
             padding-bottom: 35px;
@@ -1110,6 +1161,14 @@
         .seo-campaign-col img {
             width: 320px;
             height: auto;
+        }
+        .comprehensive-img {
+            width: 330px;
+            height: auto;
+        }
+        .arrows {
+            padding-right: 20px !important;
+            padding-bottom: 0px !important;
         }
     }
     
@@ -1666,6 +1725,79 @@
         font-size: 17px;
         line-height: 32px;
         font-family: 'Samsung Bold';
+    }
+    
+    .main-comprehensive {
+        padding-bottom: 100px;
+    }
+    
+    .testimonials {
+        background-image: url(../images/Shape850copy.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+        padding-bottom: 150px;
+        padding-top: 100px;
+    }
+    
+    .katie {
+        display: flex;
+        gap: 50px;
+    }
+    
+    .testimonials-col-1 ul li {
+        padding-bottom: 10px;
+        font-family: 'Samsung Bold';
+        text-transform: uppercase;
+        color: #a8b6d1;
+    }
+    
+    .testimonials-col-1 h2 {
+        padding-bottom: 10px;
+        color: #000;
+        font-size: 35px;
+        font-family: 'Samsung Bold';
+    }
+    
+    .testimonials-col-1 p {
+        background-image: url(../images/quote.png);
+        background-repeat: no-repeat;
+        color: #6e6e6e;
+        font-size: 17px;
+        line-height: 32px;
+        font-family: 'Samsung Bold';
+        padding-top: 50px;
+        padding-right: 100px;
+    }
+    
+    .arrows .left-arrow {
+        font-size: 26px;
+        font-weight: bold;
+        color: #76a5b5;
+        cursor: pointer;
+    }
+    
+    .arrows .right-arrow {
+        font-size: 26px;
+        font-weight: bold;
+        color: #76a5b5;
+        cursor: pointer;
+    }
+    
+    .arrows {
+        padding-right: 126px;
+        padding-bottom: 26px;
+    }
+    
+    .testimonial-img {
+        margin-top: -15%;
+    }
+    
+    .testimonial-imgs {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     /* Footer */
     
